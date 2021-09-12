@@ -27,7 +27,7 @@ public class App
         System.out.format("%d people with %d pizzas (%d slices)\n", people, pizza, slices);
 
         slices /= people;
-        System.out.format("Each person gets %d pieces of pizza", slices);
+        System.out.format("Each person gets %d pieces of pizza\n", slices);
 
         int leftovers = slices % people;
         System.out.format("There are %d leftover pieces", leftovers);
